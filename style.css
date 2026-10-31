@@ -1,0 +1,54 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Trebuchet MS, Arial, sans-serif;
+  background-color: #F1F5F9;
+  color: #1E293B;
+  margin: 15px;
+  
+h2 { font-family: Arial}
+h1 { font-family: Arial}
+}
+header{
+  background-color: #1E293B;
+  color: #E2E8F0;
+  padding: 10px;
+  border-radius: 20px
+}
+header h1{
+  text-align: center;
+  padding-right: 20%;
+}
+.header-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.photo{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.infos {
+  flex: 1;
+}
+.infos ul{
+  list-style: none;
+}
+
+.infos a {
+  color: #C3C9E9;
+}
+
+section {
+  margin: 10px;
+  
+}
