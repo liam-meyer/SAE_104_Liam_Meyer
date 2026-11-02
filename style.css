@@ -27,18 +27,6 @@ p {
 
 main a {
   color: #1e293b;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s, color 0.2s;
-}
-
-main a:visited {
-  color: #1e293b;
-}
-
-main a:hover {
-  color: #0f172a;
-  border-bottom-color: #1e293b;
 }
 
 header{
@@ -135,4 +123,17 @@ main li {
 #competences .item-flex:hover{
   transform: scale(1.03);
   box-shadow: 8px 8px 15px gray;
+}
+
+#bac figure{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+#bac img{
+  height: 400px;
+  border: solid, #1E293B, 2px;
+  padding: 10px;
+  background-color: lightgray;
 }
