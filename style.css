@@ -52,7 +52,10 @@ header h1{
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  padding-right: 20%;
+}
+
+.infos {
+  flex: 1;
 }
 
 .photo{
@@ -61,10 +64,6 @@ header h1{
   width: 150px;
   margin-right: 10px;
   border: 3px solid #00BFFF;
-}
-
-.infos {
-  flex: 1;
 }
 
 .infos ul {
